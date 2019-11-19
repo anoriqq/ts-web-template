@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2019",
+    ],
+    "sourceMap": true,
+    "outDir": "./build/server",
+    "strict": true,
+  },
+  "baseUrl": ".",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "paths": {
+    "@common/*": [
+      "src/common/*"
+    ],
+  },
+}
